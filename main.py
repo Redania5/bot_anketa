@@ -2,8 +2,8 @@ import telebot
 import json
 from questions import all_questions, results
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, Message
+from config import TOKEN
 
-TOKEN = '6925944808:AAHQecKROgFYRHczkepdTd5jKV441A_I_Wc'
 bot = telebot.TeleBot(TOKEN)
 
 
